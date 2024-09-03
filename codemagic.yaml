@@ -6,6 +6,3 @@ workflows:
       - npm run prod:ios
     artifacts:
       - platforms/ios/
-    publish:
-      artifacts:
-        - platforms/ios/
