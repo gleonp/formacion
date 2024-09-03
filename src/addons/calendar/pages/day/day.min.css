@@ -1,0 +1,11 @@
+:host .core-swipe-slides-container ion-grid {
+  flex: none;
+  width: 100%;
+}
+:host .addon-calendar-period {
+  flex-grow: 3;
+}
+:host .addon-calendar-period h2 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=day.min.css.map */

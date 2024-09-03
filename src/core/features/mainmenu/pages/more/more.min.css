@@ -1,0 +1,6 @@
+ion-item {
+  --border-color: var(--core-more-item-border, var(--ion-border-color));
+}
+ion-item > ion-icon[slot] {
+  color: var(--core-more-icon) !important;
+}/*# sourceMappingURL=more.min.css.map */

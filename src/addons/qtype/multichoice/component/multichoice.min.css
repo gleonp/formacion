@@ -1,0 +1,15 @@
+:host ::ng-deep .specificfeedback {
+  background-color: var(--core-question-feedback-color-bg);
+  color: var(--core-question-feedback-color);
+  display: inline;
+  padding: 0 0.7em;
+}
+:host ::ng-deep .answer {
+  line-height: 2em;
+}
+:host ::ng-deep .d-flex {
+  display: flex !important;
+}
+:host ::ng-deep .answer .answernumber {
+  min-width: 1.5em;
+}/*# sourceMappingURL=multichoice.min.css.map */

@@ -1,0 +1,8 @@
+:host core-user-avatar {
+  --core-avatar-size: var(--core-large-avatar-size);
+  --contact-status-size: 24px;
+  --margin-end-on-item: 16px;
+}
+:host core-user-avatar .contact-status {
+  right: calc(50% - 12px - var(--core-avatar-size) / 2) !important;
+}/*# sourceMappingURL=profile.min.css.map */

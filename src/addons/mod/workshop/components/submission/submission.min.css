@@ -1,0 +1,7 @@
+:host p.addon-overriden-grade {
+  color: var(--success);
+}
+:host p.addon-has-overriden-grade {
+  color: var(--danger);
+  text-decoration: line-through;
+}/*# sourceMappingURL=submission.min.css.map */

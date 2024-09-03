@@ -1,0 +1,7 @@
+:host {
+  display: block;
+}
+:host canvas {
+  max-width: 500px;
+  margin: 0 auto;
+}/*# sourceMappingURL=chart.min.css.map */

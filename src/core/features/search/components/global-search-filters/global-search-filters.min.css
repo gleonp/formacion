@@ -1,0 +1,16 @@
+:host {
+  --help-text-color: var(--gray-700);
+}
+:host ion-item.help {
+  color: var(--help-text-color);
+}
+:host ion-item.help ion-label {
+  margin-bottom: 0;
+}
+:host ion-item:not(.help) {
+  font-size: 16px;
+}
+
+:host-context(html.dark) {
+  --help-text-color: var(--gray-400);
+}/*# sourceMappingURL=global-search-filters.min.css.map */

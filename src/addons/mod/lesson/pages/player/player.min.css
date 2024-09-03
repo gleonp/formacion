@@ -1,0 +1,31 @@
+:host {
+  --background-odd: var(--light);
+}
+
+:host-context(html.dark) {
+  --background-odd: var(--medium);
+}
+
+:host ::ng-deep .addon-mod_lesson-slideshow {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+:host ::ng-deep .studentanswer {
+  padding-inline-start: 8px;
+}
+:host ::ng-deep table {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+:host ::ng-deep table tr:nth-child(odd) {
+  background-color: var(--background-odd);
+}
+:host ::ng-deep table tr:last-child td {
+  border-bottom: 0;
+}
+:host ::ng-deep table td {
+  padding: 5px;
+  line-height: 1.5;
+  border-bottom: 1px solid var(--stroke);
+}/*# sourceMappingURL=player.min.css.map */

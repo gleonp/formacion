@@ -1,0 +1,15 @@
+:host {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+}
+:host ion-card {
+  --border-radius: var(--radius-sm);
+}
+:host ::ng-deep ion-item-divider {
+  min-height: var(--item-divider-min-height);
+}
+:host ::ng-deep core-loading {
+  --loading-inline-min-height: 44px;
+}/*# sourceMappingURL=block.min.css.map */

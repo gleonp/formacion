@@ -10,6 +10,192 @@
  */
 html {
 
+    --core-header-toolbar-background: #00874e;
+    --core-header-toolbar-color: #FFFFFF;
+    //--core-header-buttons-background: #EA545E;
+    --core-header-buttons-color: #FFFFFF;
+
+    --core-bottom-tabs-background: #00874e;
+    --core-bottom-tabs-color: #ffffffab;
+    --core-bottom-tabs-color-selected: #FFFFFF;
+    --core-bottom-tabs-badge-text-color: #FFFFFF;
+    --core-bottom-tabs-badge-color: #005834;
+
+    --core-progressbar-color: #005834;
+    --core-progressbar-text-color: black;
+    --core-progressbar-background: white;
+
+    --core-tabs-background:#00874e;
+    --core-tab-background:#00874e;
+    --core-tab-color: #FFFFFF;
+
+    ion-list{
+        &.list-item-limited-width{
+            display: flex;
+            flex-wrap: wrap-reverse;
+            core-block{
+                width: 100%;
+            }
+        }
+    }
+
+    button{
+        --background: #00874e !important;
+    }
+
+    .swiper-slide.selected{
+        --background: #00663c;
+        border-radius: 0.9rem 0.9rem 0 0;
+        border-bottom: none !important;
+        color: #FFFFFF !important;
+        ion-tab-button{
+            color: #FFFFFF !important;
+            a,
+            h2{
+                color: #FFFFFF !important;
+            }
+        }
+    }
+
+
+    .core-login-login-button{
+        --border-radius: 2rem !important;
+        color: #FFFFFF !important;
+    }
+
+    .core-login-forgotten-password{
+        text-decoration: none !important;
+    }
+
+    .button-block{
+        --border-radius: 2rem !important;
+    }
+
+    .core-login-site-logo{
+        margin-top: 4rem !important;
+        width: 60% !important;
+    }
+
+    .user-tour-wrapper{
+        h1{
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-align: center;
+        }
+        p{
+            font-size: 0.9rem;
+            text-align: left;
+        }
+    }
+
+
+    core-block{
+        .ng-star-inserted{
+            --border-color: #ebebeb;
+        }
+    }
+
+
+    .core-block-content{
+        ul.badges{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            a{
+                color: #010101;
+                font-size: 0.8rem;
+                font-weight: 600;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .item-divider-sticky{
+        background: #ebebeb;
+        font-weight: bold;
+        min-height: 2.5rem !important;
+        h2{
+            font-size: 0.9rem !important;
+        }
+    }
+
+    .ion-color-danger{
+        --ion-color-contrast: #fff !important;
+        button{
+            color: #FFFFFF !important;
+        }
+    }
+
+
+    .button-solid{
+        --color: #FFF;
+    }
+
+    page-core-course-index{
+
+        ion-header{
+            background: #00874e;
+            ion-button,
+            ion-back-button{
+                --background: none !important;
+                color: #ffffff;
+                ion-icon{
+                    color: #ffffff;
+                }
+            }
+        }
+
+        .core-course-header{
+            ion-item{
+                --background: #00874e;
+                h1{
+                    color: #ffffff
+                }
+                core-progress-bar{
+                    progress{
+                        --progressbar-color: #FFFFFF;
+                        --progressbar-background: #36593f;
+                    }
+                    .core-progress-text{
+                        color: #FFFFFF !important;
+                    }
+                }
+            }
+        }
+
+        ion-tab-bar{
+            background: #36593f !important;
+            ion-button{
+                ion-icon{
+                    color: #ffffff;
+                }
+            }
+            ion-slides{
+                ion-slide{
+                    opacity: 0.7;
+                    ion-tab-button{
+                        background: #36593f;
+                        color: #FFFFFF !important;
+                    }
+                    &.selected{
+                        opacity: 1 !important;
+                        border-radius: 0 !important;
+                        ion-tab-button{
+                            background: #3e6949;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+
+
+
+
 }
 
 /*
@@ -17,5 +203,87 @@ html {
  * -------------------------------------------
  */
 html.dark {
+
+    --core-header-toolbar-background: #13162A;
+    --core-header-toolbar-color: #FFFFFF;
+    --core-header-buttons-background: #191E27;
+    --core-header-buttons-color: #FFFFFF;
+
+
+    --core-bottom-tabs-background: #13162A;
+    --core-bottom-tabs-color: #ffffffab;
+    --core-bottom-tabs-color-selected: #FFFFFF;
+    --core-bottom-tabs-badge-text-color: #FFFFFF;
+    --core-bottom-tabs-badge-color: #191E27;
+
+
+    .core-login-site-logo{
+        img{
+            filter: brightness(0) invert(1);
+        }
+    }
+
+    .core-block-content{
+        ul.badges{
+            a{
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    core-block{
+        .ng-star-inserted{
+            --border-color: #23272f;
+            --background: #23272f;
+        }
+    }
+
+    addon-block-badges{
+        ion-item{
+            --background: #23272f;
+        }
+    }
+
+
+    .item-divider-sticky{
+        background: #2d3037;
+    }
+
+
+    page-core-course-index{
+
+        ion-header{
+            background: #1C2541;
+        }
+
+        .core-course-header{
+            ion-item{
+                --background: #1C2541;
+                core-progress-bar{
+                    progress{
+                        --progressbar-color: #FFFFFF;
+                        --progressbar-background: #EA545E;
+                    }
+                }
+            }
+        }
+
+        ion-tab-bar{
+            background: #141a2f !important;
+            ion-slides{
+                ion-slide{
+                    ion-tab-button{
+                        background: #141a2f;
+                    }
+                    &.selected{
+                        border-bottom-color: #141a2f !important;
+                    }
+                }
+            }
+        }
+
+    }
+
+
 
 }

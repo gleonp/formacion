@@ -1,0 +1,16 @@
+:host ::ng-deep p {
+  margin: 0 0 0.5em;
+}
+:host ::ng-deep .answer div.r0, :host ::ng-deep .answer div.r1, :host ::ng-deep .answer td.r0, :host ::ng-deep .answer td.r1 {
+  padding: 0.3em;
+}
+:host ::ng-deep table {
+  width: 100%;
+  display: table;
+}
+:host ::ng-deep tr {
+  display: table-row;
+}
+:host ::ng-deep td {
+  display: table-cell;
+}/*# sourceMappingURL=multianswer.min.css.map */

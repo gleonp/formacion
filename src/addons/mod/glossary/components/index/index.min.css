@@ -1,0 +1,8 @@
+:host .addon-mod-glossary-index--offline-entries {
+  border-bottom: 1px solid var(--stroke);
+}
+:host .addon-mod-glossary-index--offline-entry {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}/*# sourceMappingURL=index.min.css.map */

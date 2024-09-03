@@ -1,0 +1,11 @@
+:host ion-card {
+  max-width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+}
+:host .course-image-wrapper {
+  width: 100%;
+  height: 0;
+  padding-top: 40%;
+  position: relative;
+}/*# sourceMappingURL=course-image-cards-page.min.css.map */

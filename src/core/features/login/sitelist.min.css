@@ -1,0 +1,7 @@
+ion-list.core-sitelist .core-sitelist-sitename {
+  border-bottom: 1px solid var(--stroke);
+}
+ion-list.core-sitelist .core-sitelist-sitename ion-label {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}/*# sourceMappingURL=sitelist.min.css.map */

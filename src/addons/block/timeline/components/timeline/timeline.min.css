@@ -1,0 +1,32 @@
+:host ion-row.addon-block-timeline-filter {
+  margin: 8px;
+  padding: 0;
+}
+:host ion-row.addon-block-timeline-filter ion-col {
+  padding: 0;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+:host ion-row.addon-block-timeline-filter ion-button,
+:host ion-row.addon-block-timeline-filter core-combobox ::ng-deep ion-button {
+  --border-width: 0;
+  --a11y-min-target-size: 40px;
+  margin: 0;
+}
+:host ion-row.addon-block-timeline-filter ion-button .select-icon,
+:host ion-row.addon-block-timeline-filter core-combobox ::ng-deep ion-button .select-icon {
+  display: none;
+}
+:host ion-row.addon-block-timeline-filter ion-button ion-icon,
+:host ion-row.addon-block-timeline-filter core-combobox ::ng-deep ion-button ion-icon {
+  font-size: 20px;
+}
+:host ion-row.addon-block-timeline-filter core-combobox ::ng-deep ion-select {
+  margin: 0;
+  --a11y-min-target-size: 40px;
+}
+:host ion-row.addon-block-timeline-filter core-search-box {
+  padding: 0;
+  margin: 0;
+  --height: 40px;
+}/*# sourceMappingURL=timeline.min.css.map */

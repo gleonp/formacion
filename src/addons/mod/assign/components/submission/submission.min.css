@@ -1,0 +1,36 @@
+:host ::ng-deep ion-item.latesubmission,
+:host ::ng-deep ion-item.overdue {
+  border-bottom: 3px solid var(--danger) !important;
+}
+:host ::ng-deep ion-item.latesubmission ion-icon,
+:host ::ng-deep ion-item.overdue ion-icon {
+  color: var(--danger);
+}
+:host ::ng-deep ion-item.earlysubmission {
+  border-bottom: 3px solid var(--success) !important;
+}
+:host ::ng-deep ion-item.earlysubmission ion-icon {
+  color: var(--success);
+}
+:host ::ng-deep ion-item.submissioneditable p {
+  color: var(--danger);
+}
+:host ::ng-deep .core-grading-summary .advancedgrade {
+  display: none;
+}
+:host ::ng-deep ion-badge {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+:host ::ng-deep core-timer.core-timer-under-300 {
+  --timer-background: var(--danger-tint);
+  --timer-text-color: var(--danger-shade);
+}
+:host ::ng-deep core-timer.core-timer-under-900 {
+  --timer-background: var(--warning-tint);
+  --timer-text-color: var(--warning-shade);
+}
+
+:host-context(html.dark) ::ng-deep ion-item.submissioneditable p {
+  color: var(--danger-tint);
+}/*# sourceMappingURL=submission.min.css.map */

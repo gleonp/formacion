@@ -1,0 +1,198 @@
+/*
+ * App CUSTOM theme SCSS
+ * ----------------------------------------------------------------------------
+ * Place here custom styles.
+ */
+/*
+ * Light Theme
+ * -------------------------------------------
+ */
+html {
+  --core-header-toolbar-background: #00874e;
+  --core-header-toolbar-color: #FFFFFF;
+  --core-header-buttons-color: #FFFFFF;
+  --core-bottom-tabs-background: #00874e;
+  --core-bottom-tabs-color: #ffffffab;
+  --core-bottom-tabs-color-selected: #FFFFFF;
+  --core-bottom-tabs-badge-text-color: #FFFFFF;
+  --core-bottom-tabs-badge-color: #005834;
+  --core-progressbar-color: #005834;
+  --core-progressbar-text-color: black;
+  --core-progressbar-background: white;
+  --core-tabs-background:#00874e;
+  --core-tab-background:#00874e;
+  --core-tab-color: #FFFFFF;
+}
+html ion-list.list-item-limited-width {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+html ion-list.list-item-limited-width core-block {
+  width: 100%;
+}
+html button {
+  --background: #00874e !important;
+}
+html .swiper-slide.selected {
+  --background: #00663c;
+  border-radius: 0.9rem 0.9rem 0 0;
+  border-bottom: none !important;
+  color: #FFFFFF !important;
+}
+html .swiper-slide.selected ion-tab-button {
+  color: #FFFFFF !important;
+}
+html .swiper-slide.selected ion-tab-button a,
+html .swiper-slide.selected ion-tab-button h2 {
+  color: #FFFFFF !important;
+}
+html .core-login-login-button {
+  --border-radius: 2rem !important;
+  color: #FFFFFF !important;
+}
+html .core-login-forgotten-password {
+  text-decoration: none !important;
+}
+html .button-block {
+  --border-radius: 2rem !important;
+}
+html .core-login-site-logo {
+  margin-top: 4rem !important;
+  width: 60% !important;
+}
+html .user-tour-wrapper h1 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+}
+html .user-tour-wrapper p {
+  font-size: 0.9rem;
+  text-align: left;
+}
+html core-block .ng-star-inserted {
+  --border-color: #ebebeb;
+}
+html .core-block-content ul.badges {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+html .core-block-content ul.badges a {
+  color: #010101;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+html .item-divider-sticky {
+  background: #ebebeb;
+  font-weight: bold;
+  min-height: 2.5rem !important;
+}
+html .item-divider-sticky h2 {
+  font-size: 0.9rem !important;
+}
+html .ion-color-danger {
+  --ion-color-contrast: #fff !important;
+}
+html .ion-color-danger button {
+  color: #FFFFFF !important;
+}
+html .button-solid {
+  --color: #FFF;
+}
+html page-core-course-index ion-header {
+  background: #00874e;
+}
+html page-core-course-index ion-header ion-button,
+html page-core-course-index ion-header ion-back-button {
+  --background: none !important;
+  color: #ffffff;
+}
+html page-core-course-index ion-header ion-button ion-icon,
+html page-core-course-index ion-header ion-back-button ion-icon {
+  color: #ffffff;
+}
+html page-core-course-index .core-course-header ion-item {
+  --background: #00874e;
+}
+html page-core-course-index .core-course-header ion-item h1 {
+  color: #ffffff;
+}
+html page-core-course-index .core-course-header ion-item core-progress-bar progress {
+  --progressbar-color: #FFFFFF;
+  --progressbar-background: #36593f;
+}
+html page-core-course-index .core-course-header ion-item core-progress-bar .core-progress-text {
+  color: #FFFFFF !important;
+}
+html page-core-course-index ion-tab-bar {
+  background: #36593f !important;
+}
+html page-core-course-index ion-tab-bar ion-button ion-icon {
+  color: #ffffff;
+}
+html page-core-course-index ion-tab-bar ion-slides ion-slide {
+  opacity: 0.7;
+}
+html page-core-course-index ion-tab-bar ion-slides ion-slide ion-tab-button {
+  background: #36593f;
+  color: #FFFFFF !important;
+}
+html page-core-course-index ion-tab-bar ion-slides ion-slide.selected {
+  opacity: 1 !important;
+  border-radius: 0 !important;
+}
+html page-core-course-index ion-tab-bar ion-slides ion-slide.selected ion-tab-button {
+  background: #3e6949;
+}
+
+/*
+ * Dark Theme
+ * -------------------------------------------
+ */
+html.dark {
+  --core-header-toolbar-background: #13162A;
+  --core-header-toolbar-color: #FFFFFF;
+  --core-header-buttons-background: #191E27;
+  --core-header-buttons-color: #FFFFFF;
+  --core-bottom-tabs-background: #13162A;
+  --core-bottom-tabs-color: #ffffffab;
+  --core-bottom-tabs-color-selected: #FFFFFF;
+  --core-bottom-tabs-badge-text-color: #FFFFFF;
+  --core-bottom-tabs-badge-color: #191E27;
+}
+html.dark .core-login-site-logo img {
+  filter: brightness(0) invert(1);
+}
+html.dark .core-block-content ul.badges a {
+  color: #FFFFFF;
+}
+html.dark core-block .ng-star-inserted {
+  --border-color: #23272f;
+  --background: #23272f;
+}
+html.dark addon-block-badges ion-item {
+  --background: #23272f;
+}
+html.dark .item-divider-sticky {
+  background: #2d3037;
+}
+html.dark page-core-course-index ion-header {
+  background: #1C2541;
+}
+html.dark page-core-course-index .core-course-header ion-item {
+  --background: #1C2541;
+}
+html.dark page-core-course-index .core-course-header ion-item core-progress-bar progress {
+  --progressbar-color: #FFFFFF;
+  --progressbar-background: #EA545E;
+}
+html.dark page-core-course-index ion-tab-bar {
+  background: #141a2f !important;
+}
+html.dark page-core-course-index ion-tab-bar ion-slides ion-slide ion-tab-button {
+  background: #141a2f;
+}
+html.dark page-core-course-index ion-tab-bar ion-slides ion-slide.selected {
+  border-bottom-color: #141a2f !important;
+}/*# sourceMappingURL=theme.custom.min.css.map */

@@ -1,0 +1,154 @@
+.addon-qtype-ddmarker-container {
+  min-height: 80px;
+}
+
+core-format-text ::ng-deep .ddarea, core-format-text ::ng-deep .ddform {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+core-format-text ::ng-deep .qtext {
+  margin-bottom: 0.5em;
+  display: block;
+}
+core-format-text ::ng-deep .droparea {
+  display: inline-block;
+}
+core-format-text ::ng-deep div.droparea img {
+  border: 1px solid var(--core-dd-question-border);
+  max-width: 100%;
+}
+core-format-text ::ng-deep .dropzones svg {
+  z-index: 3;
+}
+core-format-text ::ng-deep .dragitem.beingdragged .markertext {
+  z-index: 5;
+  box-shadow: var(--core-dd-question-selected-shadow);
+}
+core-format-text ::ng-deep .dragitems.readonly .dragitem,
+core-format-text ::ng-deep .dragitems.readonly .marker,
+core-format-text ::ng-deep .draghomes.readonly .dragitem,
+core-format-text ::ng-deep .draghomes.readonly .marker {
+  cursor: auto;
+}
+core-format-text ::ng-deep .dragitems .dragitem,
+core-format-text ::ng-deep .dragitems .draghome,
+core-format-text ::ng-deep .dragitems .marker,
+core-format-text ::ng-deep .draghomes .dragitem,
+core-format-text ::ng-deep .draghomes .draghome,
+core-format-text ::ng-deep .draghomes .marker {
+  vertical-align: top;
+  cursor: pointer;
+  position: relative;
+  margin: 10px;
+  display: inline-block;
+}
+core-format-text ::ng-deep .dragitems .dragitem.dragplaceholder,
+core-format-text ::ng-deep .dragitems .draghome.dragplaceholder,
+core-format-text ::ng-deep .dragitems .marker.dragplaceholder,
+core-format-text ::ng-deep .draghomes .dragitem.dragplaceholder,
+core-format-text ::ng-deep .draghomes .draghome.dragplaceholder,
+core-format-text ::ng-deep .draghomes .marker.dragplaceholder {
+  display: none;
+  visibility: hidden;
+}
+core-format-text ::ng-deep .dragitems .dragitem.dragplaceholder.active,
+core-format-text ::ng-deep .dragitems .draghome.dragplaceholder.active,
+core-format-text ::ng-deep .dragitems .marker.dragplaceholder.active,
+core-format-text ::ng-deep .draghomes .dragitem.dragplaceholder.active,
+core-format-text ::ng-deep .draghomes .draghome.dragplaceholder.active,
+core-format-text ::ng-deep .draghomes .marker.dragplaceholder.active {
+  display: inline-block;
+}
+core-format-text ::ng-deep .dragitems .dragitem.unplaced,
+core-format-text ::ng-deep .dragitems .draghome.unplaced,
+core-format-text ::ng-deep .dragitems .marker.unplaced,
+core-format-text ::ng-deep .draghomes .dragitem.unplaced,
+core-format-text ::ng-deep .draghomes .draghome.unplaced,
+core-format-text ::ng-deep .draghomes .marker.unplaced {
+  position: relative;
+}
+core-format-text ::ng-deep .dragitems .dragitem.placed,
+core-format-text ::ng-deep .dragitems .draghome.placed,
+core-format-text ::ng-deep .dragitems .marker.placed,
+core-format-text ::ng-deep .draghomes .dragitem.placed,
+core-format-text ::ng-deep .draghomes .draghome.placed,
+core-format-text ::ng-deep .draghomes .marker.placed {
+  position: absolute;
+  opacity: 0.6;
+}
+core-format-text ::ng-deep .droparea .dragitem,
+core-format-text ::ng-deep .droparea .marker {
+  cursor: pointer;
+  position: absolute;
+  vertical-align: top;
+  z-index: 2;
+}
+core-format-text ::ng-deep div.ddarea {
+  text-align: center;
+  position: relative;
+}
+core-format-text ::ng-deep div.ddarea .dropzones,
+core-format-text ::ng-deep div.ddarea .markertexts {
+  top: 0;
+  left: 0;
+  min-height: 80px;
+  position: absolute;
+  text-align: start;
+}
+core-format-text ::ng-deep .dropbackground {
+  margin: 0 auto;
+}
+core-format-text ::ng-deep div.dragitems div.draghome,
+core-format-text ::ng-deep div.dragitems div.dragitem,
+core-format-text ::ng-deep div.draghome,
+core-format-text ::ng-deep div.drag,
+core-format-text ::ng-deep div.draghomes div.marker,
+core-format-text ::ng-deep div.marker,
+core-format-text ::ng-deep div.drag {
+  font: 13px/1.231 arial, helvetica, clean, sans-serif;
+}
+core-format-text ::ng-deep div.dragitems span.markertext,
+core-format-text ::ng-deep div.draghomes span.markertext,
+core-format-text ::ng-deep div.markertexts span.markertext {
+  margin: 0 5px;
+  z-index: 2;
+  background-color: var(--ion-item-background);
+  border: 2px solid var(--core-dd-question-border);
+  padding: 5px;
+  display: inline-block;
+  zoom: 1;
+  border-radius: 10px;
+  color: var(--ion-text-color);
+}
+core-format-text ::ng-deep div.markertexts span.markertext {
+  z-index: 3;
+  background-color: var(--warning-tint);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--warning);
+  position: absolute;
+  color: var(--gray-900);
+}
+core-format-text ::ng-deep span.wrongpart {
+  background-color: var(--warning-tint);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--warning);
+  padding: 5px;
+  border-radius: 10px;
+  opacity: 0.6;
+  margin: 5px;
+  display: inline-block;
+  color: var(--gray-900);
+}
+core-format-text ::ng-deep div.dragitems img.target,
+core-format-text ::ng-deep div.draghomes img.target {
+  position: absolute;
+  left: -7px; /* This must be half the size of the target image, minus 0.5. */
+  top: -7px; /* In other words, this works for a 15x15 cross-hair. */
+}
+core-format-text ::ng-deep div.dragitems div.draghome img.target,
+core-format-text ::ng-deep div.draghomes div.marker img.target {
+  display: none;
+}/*# sourceMappingURL=ddmarker.min.css.map */

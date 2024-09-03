@@ -1,0 +1,9 @@
+:host .core-block-content ::ng-deep ul.list {
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  -webkit-padding-start: 0;
+}
+:host .core-block-content ::ng-deep ul.list li {
+  padding-bottom: 8px;
+}/*# sourceMappingURL=blogrecent.min.css.map */

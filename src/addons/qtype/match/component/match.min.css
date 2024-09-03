@@ -1,0 +1,9 @@
+:host .core-correct-icon {
+  margin-left: 0;
+}
+:host .addon-qtype-match-correct {
+  color: var(--success);
+}
+:host .addon-qtype-match-incorrect {
+  color: var(--danger);
+}/*# sourceMappingURL=match.min.css.map */

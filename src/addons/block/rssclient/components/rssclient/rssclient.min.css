@@ -1,0 +1,14 @@
+:host .core-block-content ::ng-deep .list {
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  -webkit-padding-start: 0;
+}
+:host .core-block-content ::ng-deep .list li {
+  border-top: 1px solid var(--stroke);
+  padding: 5px;
+  padding-bottom: 8px;
+}
+:host .core-block-content ::ng-deep .list li:first-child {
+  border-top-width: 0;
+}/*# sourceMappingURL=rssclient.min.css.map */

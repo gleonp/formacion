@@ -1,0 +1,26 @@
+:host {
+  --grid-background: var(--white);
+  --even-background: var(--gray-200);
+}
+:host .option-name {
+  font-size: var(--text-size);
+}
+:host .addon-mod_survey-question {
+  border-top: 1px solid var(--stroke);
+}
+:host ion-row {
+  background-color: var(--grid-background);
+}
+:host .even {
+  background-color: var(--even-background);
+}
+:host ion-radio {
+  height: var(--a11y-min-target-size);
+  width: var(--a11y-min-target-size);
+  padding: 12px;
+}
+
+:host-context(html.dark) {
+  --grid-background: var(--gray-900);
+  --even-background: var(--medium);
+}/*# sourceMappingURL=index.min.css.map */

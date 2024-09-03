@@ -1,0 +1,91 @@
+:host .core-block-content ::ng-deep .tag_cloud {
+  text-align: center;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list {
+  list-style: none;
+  margin: 0;
+  -webkit-padding-start: 0;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li {
+  padding: 0.2em;
+  display: inline-block;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li a {
+  background: var(--primary);
+  color: var(--primary-contrast);
+  padding: 3px 8px;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  min-width: 10px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  contain: content;
+  vertical-align: baseline;
+  text-decoration: none;
+  border-radius: var(--radius-xs);
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s20 {
+  font-size: 2.7em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s19 {
+  font-size: 2.6em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s18 {
+  font-size: 2.5em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s17 {
+  font-size: 2.4em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s16 {
+  font-size: 2.3em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s15 {
+  font-size: 2.2em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s14 {
+  font-size: 2.1em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s13 {
+  font-size: 2em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s12 {
+  font-size: 1.9em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s11 {
+  font-size: 1.8em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s10 {
+  font-size: 1.7em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s9 {
+  font-size: 1.6em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s8 {
+  font-size: 1.5em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s7 {
+  font-size: 1.4em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s6 {
+  font-size: 1.3em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s5 {
+  font-size: 1.2em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s4 {
+  font-size: 1.1em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s3 {
+  font-size: 1em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s2 {
+  font-size: 0.9em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s1 {
+  font-size: 0.8em;
+}
+:host .core-block-content ::ng-deep .tag_cloud ul.inline-list li .s0 {
+  font-size: 0.7em;
+}/*# sourceMappingURL=tags.min.css.map */

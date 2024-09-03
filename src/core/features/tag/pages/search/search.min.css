@@ -1,0 +1,71 @@
+:host core-search-box ion-card {
+  width: 100% !important;
+  margin: 0 !important;
+}
+:host .core-tag-cloud ion-badge {
+  margin: 8px;
+  cursor: pointer;
+}
+:host .core-tag-cloud ion-badge .size20 {
+  font-size: 3.4rem;
+}
+:host .core-tag-cloud ion-badge .size19 {
+  font-size: 3.3rem;
+}
+:host .core-tag-cloud ion-badge .size18 {
+  font-size: 3.2rem;
+}
+:host .core-tag-cloud ion-badge .size17 {
+  font-size: 3.1rem;
+}
+:host .core-tag-cloud ion-badge .size16 {
+  font-size: 3rem;
+}
+:host .core-tag-cloud ion-badge .size15 {
+  font-size: 2.9rem;
+}
+:host .core-tag-cloud ion-badge .size14 {
+  font-size: 2.8rem;
+}
+:host .core-tag-cloud ion-badge .size13 {
+  font-size: 2.7rem;
+}
+:host .core-tag-cloud ion-badge .size12 {
+  font-size: 2.6rem;
+}
+:host .core-tag-cloud ion-badge .size11 {
+  font-size: 2.5rem;
+}
+:host .core-tag-cloud ion-badge .size10 {
+  font-size: 2.4rem;
+}
+:host .core-tag-cloud ion-badge .size9 {
+  font-size: 2.3rem;
+}
+:host .core-tag-cloud ion-badge .size8 {
+  font-size: 2.2rem;
+}
+:host .core-tag-cloud ion-badge .size7 {
+  font-size: 2.1rem;
+}
+:host .core-tag-cloud ion-badge .size6 {
+  font-size: 2rem;
+}
+:host .core-tag-cloud ion-badge .size5 {
+  font-size: 1.9rem;
+}
+:host .core-tag-cloud ion-badge .size4 {
+  font-size: 1.8rem;
+}
+:host .core-tag-cloud ion-badge .size3 {
+  font-size: 1.7rem;
+}
+:host .core-tag-cloud ion-badge .size2 {
+  font-size: 1.6rem;
+}
+:host .core-tag-cloud ion-badge .size1 {
+  font-size: 1.5rem;
+}
+:host .core-tag-cloud ion-badge .size0 {
+  font-size: 1.4rem;
+}/*# sourceMappingURL=search.min.css.map */

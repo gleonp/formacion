@@ -1,0 +1,5 @@
+:host core-mod-icon {
+  background: transparent;
+  margin: 0;
+  --filter: var(--module-icon-filter);
+}/*# sourceMappingURL=activitymodules.min.css.map */

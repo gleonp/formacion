@@ -1,0 +1,9 @@
+:host h2 {
+  margin-top: 0;
+}
+:host h2, :host p {
+  text-align: center;
+}
+:host ion-button {
+  margin: 0;
+}/*# sourceMappingURL=user-menu-tour.min.css.map */

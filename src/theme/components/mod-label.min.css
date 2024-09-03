@@ -1,0 +1,14 @@
+.core-course-module-handler.addon-mod-label-handler {
+  align-items: center !important;
+  cursor: auto !important;
+}
+.core-course-module-handler.addon-mod-label-handler:hover {
+  opacity: 1;
+}
+.core-course-module-handler.addon-mod-label-handler .activity-title {
+  display: flex;
+  flex-direction: column;
+}
+.core-course-module-handler.addon-mod-label-handler .activity-title .item-heading {
+  order: 2;
+}/*# sourceMappingURL=mod-label.min.css.map */

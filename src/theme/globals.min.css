@@ -1,0 +1,53 @@
+/**
+ * App Global variables SCSS
+ * ----------------------------------------------------------------------------
+ * Place here the different files you should import to use global variables.
+ */
+/**
+ * Imported ionic string functions for SCSS
+ * ----------------------------------------------------------------------------
+ * Extracted from
+ * https://github.com/ionic-team/ionic-framework/blob/master/core/src/themes/ionic.functions.string.scss
+ */
+/**
+ * Imported ionic color functions for SCSS
+ * ----------------------------------------------------------------------------
+ * Extracted from
+ * https://github.com/ionic-team/ionic-framework/blob/master/core/src/themes/ionic.functions.color.scss
+ */
+/**
+ * Imported ionic mixins for SCSS
+ * ----------------------------------------------------------------------------
+ * Extracted from
+ * https://github.com/ionic-team/ionic-framework/blob/master/core/src/themes/ionic.mixins.scss
+ */
+/**
+ * Imported ionic mixins for SCSS from different components
+ * ----------------------------------------------------------------------------
+ * Extracted from
+ * https://github.com/ionic-team/ionic-framework/blob/master/core/src/components/grid/grid.mixins.scss
+ * https://github.com/ionic-team/ionic-framework/blob/master/core/src/components/item/item.mixins.scss
+ */
+/**
+ * App custom mixins for SCSS
+ * ----------------------------------------------------------------------------
+ * Place here our custom mixins.
+ */
+/**
+ * Same as item-push-svg-url but admits flip-rtl
+ */
+/*
+ * App Custom App variables SCSS
+ * ----------------------------------------------------------------------------
+ * Place here all custom app variables.
+ */
+/*
+ * App Global variables SCSS
+ * ----------------------------------------------------------------------------
+ * Place here all global variables.
+ */
+/**
+ * Layout Breakpoints
+ *
+ * https://ionicframework.com/docs/layout/grid#default-breakpoints
+ *//*# sourceMappingURL=globals.min.css.map */

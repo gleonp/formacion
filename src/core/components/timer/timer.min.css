@@ -1,0 +1,32 @@
+:host {
+  --timer-background: transparent;
+}
+:host .core-timer .core-timer-time-left, :host .core-timer .core-timesup {
+  font-weight: bold;
+}
+:host .core-timer .core-timesup {
+  flex-grow: 1;
+  text-align: center;
+}
+:host ion-item.core-timer {
+  --background: var(--timer-background);
+  --color: var(--timer-text-color, var(--text-color));
+}
+:host div.core-timer {
+  background: var(--timer-background);
+  color: var(--timer-text-color, var(--text-color));
+  border-radius: var(--radius-lg);
+}
+:host button {
+  color: var(--timer-text-color, var(--core-link-color));
+}
+:host ion-item.core-timer ion-label,
+:host div.core-timer {
+  display: flex;
+  align-items: center;
+}
+:host ion-item.core-timer ion-label .core-timer-visibility,
+:host div.core-timer .core-timer-visibility {
+  flex-grow: 1;
+  text-align: end;
+}/*# sourceMappingURL=timer.min.css.map */

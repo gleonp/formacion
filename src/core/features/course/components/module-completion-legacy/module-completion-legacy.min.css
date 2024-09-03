@@ -1,0 +1,23 @@
+:host {
+  display: contents;
+  --size: 30px;
+}
+:host img {
+  padding: 2px;
+  width: var(--size);
+  vertical-align: middle;
+  max-width: none;
+  margin: 4px;
+}
+:host ion-button {
+  --padding-top: 0px;
+  --padding-start: 0px;
+  --padding-end: 0px;
+  --padding-bottom: 0px;
+  margin: 0;
+  --a11y-target-min-size: 32px;
+  width: var(--a11y-target-min-size);
+  height: var(--a11y-target-min-size);
+  min-width: var(--a11y-target-min-size);
+  min-height: var(--a11y-target-min-size);
+}/*# sourceMappingURL=module-completion-legacy.min.css.map */

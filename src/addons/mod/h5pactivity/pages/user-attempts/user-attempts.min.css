@@ -1,0 +1,10 @@
+:host .addon-mod_h5pactivity-table-header {
+  font-weight: bold;
+}
+:host .addon-mod_h5pactivity-table-header ion-col {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+:host .addon-mod_h5pactivity-table-row .addon-mod_h5pactivity-table-success-col {
+  font-size: 1.2em;
+}/*# sourceMappingURL=user-attempts.min.css.map */

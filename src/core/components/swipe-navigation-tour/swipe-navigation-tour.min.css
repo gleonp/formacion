@@ -1,0 +1,17 @@
+:host {
+  max-width: 85vw;
+}
+:host ion-icon {
+  width: 100%;
+  height: 150px;
+  min-width: 300px;
+}
+:host p {
+  text-align: center;
+}
+:host ion-button {
+  --border-width: 2px;
+  --border-color: white;
+  --background: transparent;
+  --color: white;
+}/*# sourceMappingURL=swipe-navigation-tour.min.css.map */

@@ -1,0 +1,25 @@
+:host {
+  --recording-details-background: var(--gray-100);
+  --recording-details-border: var(--gray-500);
+}
+:host ion-item > p[slot=end] {
+  font-size: var(--text-size);
+}
+:host core-empty-box ::ng-deep p {
+  font-size: 100%;
+}
+:host .addon-mod_bbb-recording-playback-title ion-label {
+  margin-bottom: 0;
+}
+:host .addon-mod_bbb-recording-details {
+  border-top: 2px solid var(--recording-details-border);
+  border-bottom: 2px solid var(--recording-details-border);
+}
+:host .addon-mod_bbb-recording-details ion-item {
+  --background: var(--recording-details-background);
+}
+
+:host-context(html.dark) {
+  --recording-details-background: var(--gray-800);
+  --recording-details-border: var(--gray-500);
+}/*# sourceMappingURL=index.min.css.map */

@@ -1,0 +1,18 @@
+:host h2, :host div {
+  font-size: 16px;
+}
+:host h2 {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  line-height: 27px;
+}
+:host ion-list {
+  line-height: 32px;
+}
+:host ion-icon {
+  width: 24px;
+  vertical-align: middle;
+}
+:host ion-icon.completion_dot {
+  font-size: 4px;
+}/*# sourceMappingURL=module-completion-details.min.css.map */

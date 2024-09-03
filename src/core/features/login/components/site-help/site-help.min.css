@@ -1,0 +1,21 @@
+:host .core-login-faqwhatisurlanswer img {
+  max-height: 50px;
+}
+:host .core-login-faqwhereisqrcodeanswer img {
+  max-height: 220px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+:host:not(.hydrated) .core-login-site-help--answer {
+  opacity: 0;
+  max-width: 100%;
+  position: absolute;
+  pointer-events: none;
+}
+:host.hydrated .core-login-site-help--answer {
+  height: 0;
+  transition: height 200ms ease-in-out;
+}
+:host.hydrated .core-login-site-help--answer.open {
+  height: var(--height);
+}/*# sourceMappingURL=site-help.min.css.map */

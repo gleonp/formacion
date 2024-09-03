@@ -1,0 +1,12 @@
+:host {
+  width: 100%;
+}
+:host .core-input-error-container .core-input-error {
+  padding: 4px;
+  color: var(--danger);
+  font-size: 12px;
+  display: none;
+}
+:host .core-input-error-container .core-input-error:first-child {
+  display: block;
+}/*# sourceMappingURL=input-errors.min.css.map */

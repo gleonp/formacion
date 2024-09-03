@@ -1,0 +1,6 @@
+:host .addon-calendar-eventtype-container.item-select-disabled ion-label, :host .addon-calendar-eventtype-container.item-select-disabled ion-select {
+  opacity: 1;
+}
+:host .addon-calendar-eventtype-container.item-select-disabled ion-select::part(icon) {
+  display: none;
+}/*# sourceMappingURL=edit-event.min.css.map */

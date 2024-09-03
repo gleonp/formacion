@@ -1,0 +1,40 @@
+:host {
+  --core-h5p-placeholder-bg-color: var(--gray-300);
+  --core-h5p-placeholder-text-color: var(--ion-text-color);
+}
+:host .core-h5p-placeholder {
+  position: relative;
+  width: 100%;
+  height: 230px;
+  background: url("/assets/img/icons/h5p.svg") center top 25px/100px auto no-repeat var(--core-h5p-placeholder-bg-color);
+  color: var(--core-h5p-placeholder-text-color);
+}
+:host .core-h5p-placeholder .icon:not([color=success]) {
+  color: var(--core-h5p-placeholder-text-color);
+}
+:host .core-h5p-placeholder .core-h5p-placeholder-play-button, :host .core-h5p-placeholder .core-h5p-placeholder-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+:host .core-h5p-placeholder .core-h5p-placeholder-play-button {
+  font-size: 30px;
+  min-height: 50px;
+}
+:host .core-h5p-placeholder .core-h5p-placeholder-download-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+:host .core-h5p-placeholder .core-h5p-placeholder-download-container ion-spinner {
+  margin-right: 0.75em;
+}
+:host .core-h5p-placeholder .core-h5p-placeholder-download-container core-download-refresh > ion-icon {
+  margin: 0.4rem 0.2rem;
+  padding: 0 0.5em;
+  line-height: 0.67;
+}
+:host .core-h5p-placeholder ion-spinner circle {
+  stroke: var(--core-h5p-placeholder-text-color);
+}/*# sourceMappingURL=h5p-player.min.css.map */

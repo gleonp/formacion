@@ -1,0 +1,35 @@
+:host .core-av-wrapper {
+  width: 100%;
+  height: 100%;
+}
+:host .core-av-wrapper .core-webcam-image-canvas {
+  display: none;
+}
+:host .core-av-wrapper .core-audio-record-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+:host .core-av-wrapper .core-audio-record-container .core-audio-canvas {
+  width: 100%;
+  height: 100%;
+}
+:host .core-av-wrapper .core-audio-record-container .core-audio-captured {
+  width: 100%;
+}
+:host .core-av-wrapper video, :host .core-av-wrapper img {
+  width: 100%;
+  height: 100%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+:host .core-av-wrapper video.core-webcam-stream, :host .core-av-wrapper img.core-webcam-stream {
+  transform: scaleX(-1);
+}
+:host ion-footer {
+  background-color: var(--gray-300);
+  border-top: 1px solid var(--gray-500);
+}/*# sourceMappingURL=capture-media.min.css.map */
