@@ -1,0 +1,11 @@
+workflows:
+  default:
+    name: Default workflow
+    scripts:
+      - npm install
+      - npm run prod:ios
+    artifacts:
+      - platforms/ios/
+    publish:
+      artifacts:
+        - platforms/ios/
